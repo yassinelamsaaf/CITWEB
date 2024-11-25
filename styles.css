@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 204, 0);
+
+}
+.container{
+    background-color: white;
+    height: 530px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 4px ;
+    border: 1.5px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.infos{
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+*{
+    font-family: 'Figtree' ;
+    margin: 0;
+    padding: 0;
+}
+.p1{
+    background-color:rgb(255, 204, 0) ;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.mainp{
+    font-size: 20px;
+    color: gray;
+}
+.author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.author p{
+    font-weight: bald;
+}
+.main-title:hover{
+    color: rgb(255, 221, 0);
+    cursor: pointer;
+}
+.main-title{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
