@@ -1,33 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Rock paper Scissors</title>
+    <link rel="stylesheet" href="project2.css">
 </head>
 <body>
-    <div class="container">
-        <img src="illustration-article.svg" alt=""width="100%" style="border-radius:10px ;">
-        <div class="infos">
-            <p class="p1">Learning</p>
-            <p>published 25 Oct 2024</p>
-        </div>
-        <p><strong>Tags:</strong>HTML ,CSS</p>
-        <a class="main-title"  target="_blank" href="https://www.google.com/">
-            <h2  style="font-weight: 800;">HTML & CSS foundations </h2>
-        </a>
-        <p class="mainp">Lorem ipsum dolor sit, ametcidunt doloribus 
-            consequuntur modi accusamus officiis, qui in hahowa ja hahowa mcha labore?
-        </p>
-        <div class="author">
-        <img src="profile.jpg" alt="" width="40px" style="border-radius: 100px;" >
-        <p>Yassine Lamsaaf</p>
-         </div>
-    </div>
-
+    <h1>Rock Paper Scissors</h1>
+    <div class="buttons">
+<button class="move-button" onclick ="playmove('rock')"><img src="images/rock-emoji.png" alt=""></button>
+<button class="move-button" onclick ="playmove('paper')" ><img src="images/paper-emoji.png" alt=""></button>
+<button class="move-button" onclick ="playmove('scissor')" ><img src="images/scissor-emoji.png" alt=""></button>
+</div>
+<p class = "status" style="font-size: 30px; font-weight: 700;" ></p>
+<p class="you-computer"></p>
+<p class="result"></p>
+<button class="result-button" onclick = "resetcounter()" >Reset count</button>
+<button class="result-button" onclick = "autoplay()">Auto play</button>
+<script src="project2.js"></script>
 </body>
 </html>
